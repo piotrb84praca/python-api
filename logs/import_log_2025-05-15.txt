@@ -1,0 +1,8 @@
+2025-05-15 07:20:06,513 - INFO - Import importEasyContacts started: 2025-05-15 07:20:06.513604
+2025-05-15 07:20:30,229 - INFO - Import importEasyContacts ended: 2025-05-15 07:20:30.228788 Rows affected: 34520. Duration: 0:00:23.715184.
+2025-05-15 07:24:02,620 - INFO - Import importEasyContacts started: 2025-05-15 07:24:02.619514
+2025-05-15 07:24:13,568 - INFO - Import importEasyContacts ended: 2025-05-15 07:24:13.568444 Rows affected: 34520. Duration: 0:00:10.948930.
+2025-05-15 07:26:01,997 - INFO - Import importEasyContacts started: 2025-05-15 07:26:01.996696
+2025-05-15 07:26:16,034 - INFO - Import importEasyContacts ended: 2025-05-15 07:26:16.034410 Rows affected: 34520. Duration: 0:00:14.037714.
+2025-05-15 07:30:42,131 - INFO - Import importEasyContacts started: 2025-05-15 07:30:42.131027
+2025-05-15 07:30:52,206 - INFO - Import importEasyContacts ended: 2025-05-15 07:30:52.205767 Rows affected: 34520. Duration: 0:00:10.074740.
