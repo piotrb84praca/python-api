@@ -14,9 +14,8 @@ from services.MssPotentialRepository import MssPotentialRepository
 from services.WlSOKxRepository import WlSOKxRepository
 from services.GoOneOffRepository import GoOneOffRepository
 from services.FileUpdatesRepository import FileUpdatesRepository
-
-#from services.KlikCustomersRepository import KlikCustomersRepository
-#from services.KlikSaleApprovalsRepository import KlikSaleApprovalsRepository
+from services.KlikCustomersRepository import KlikCustomersRepository
+from services.KlikSaleApprovalsRepository import KlikSaleApprovalsRepository
 #from services.TestRepository import TestRepository
 
 class ServiceFactory:
@@ -57,10 +56,10 @@ class ServiceFactory:
             return FileUpdatesRepository()                
        #\ elif service_name == 'Test':
        #     return TestRepository()
-       # elif service_name == 'KlikCustomers':
-       #     return KlikCustomersRepository()   
-       # elif service_name == 'KlikSaleApprovals':
-       #     return KlikSaleApprovalsRepository()     
+        elif service_name == 'KlikCustomers':
+           return KlikCustomersRepository()   
+        elif service_name == 'KlikSaleApprovals':
+            return KlikSaleApprovalsRepository()     
         else:
             return None
             
